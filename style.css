@@ -1,0 +1,30 @@
+body {font-family:Verdana;font-size:14px;}
+
+ul, li, p, img {margin:0;padding:0;border:none;}
+
+ul.slideshow {
+	width:450px;height:200px;
+	overflow:hidden;position:relative;
+	list-style:none;
+	background-color:blue;
+}
+
+ul.slideshow li {
+	position:absolute;
+	left:0;
+	right:0;
+}
+
+ul.slideshow li.present {
+	z-index:500;
+}
+
+#slideshow-caption {
+	width:450px;height:70px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	color:#fff;
+	background:#000;
+	z-index:500;
+}
