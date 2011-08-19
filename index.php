@@ -7,6 +7,7 @@
 <script type="text/javascript" src="slideshow.js"></script>
 </head>
 <body>
+<<<<<<< HEAD
 	<ul id="slideshow">
 		
                 <!-- List with images -->
@@ -31,3 +32,18 @@
         <h1 id="error"></h1>
 </body>
 </html>
+=======
+	<ul class="slideshow">
+		<li><a href="#">
+			<img src="s1.gif" title="Title 1" alt="Short Description 1"/>
+		</a></li>
+		<li class="present"><a href="#">
+			<img src="s2.gif" title="Title 2" alt="Short description 2"/>
+		</a></li>
+		<li><a href="#">
+			<img src="s3.gif" title="Title 3" alt="Short description 3"/>
+		</a></li>
+	</ul>
+</body>
+</html>
+>>>>>>> 5b2e51dec6dbdf5165acc3b9051e5691c6effe31
