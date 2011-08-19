@@ -1,5 +1,4 @@
 $(document).ready(function() {
-<<<<<<< HEAD
 	slideshow(4000);
 });
 
@@ -22,7 +21,8 @@ function init() {
     //Set the opacity of text container to 60%
     $('.slideshow-container').css({opacity: 0.6, bottom:0});
 
-    toggleText();
+    $('.slideshow-caption h3').html($('.slideshow-current img').attr('title'));
+    $('.slideshow-caption p').html($('.slideshow-current img').attr('alt'));
 }
 
 /**
@@ -64,13 +64,3 @@ function toggleText() {
         $('.slideshow-caption p').html($('.slideshow-current img').attr('alt'));
     });
 }
-=======
-	slideshow();	
-});
-
-function slideshow() {
-	$("ul.slideshow").append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><h3></h3><p></p></div></li>');
-	$("ul.slideshow li").css({opacity: 0.0});
-	$("ul.slideshow li:first").css({opacity: 1.0});	
-}
->>>>>>> 5b2e51dec6dbdf5165acc3b9051e5691c6effe31
