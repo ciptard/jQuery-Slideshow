@@ -27,7 +27,5 @@
                     </div>
                 </li>
 	</ul>
-
-        <h1 id="error"></h1>
 </body>
 </html>
