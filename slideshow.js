@@ -59,8 +59,9 @@ function alternate() {
  * Change the text in the caption.
  */
 function toggleText() {
-    $('.slideshow-container').slideToggle(100, function() {
+    $('.slideshow-container').slideToggle(300, function() {
         $('.slideshow-caption h3').html($('.slideshow-current img').attr('title'));
         $('.slideshow-caption p').html($('.slideshow-current img').attr('alt'));
+        $('.slideshow-container').slideToggle(500);
     });
 }
